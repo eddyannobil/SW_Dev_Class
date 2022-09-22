@@ -5,6 +5,17 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [3.0.0] - 2022-09-22
+### Added
+- Card game algorithm
+
+### Changed
+- N/A
+
+### Removed
+- N/A
+
+
 ## [2.0.0] - 2022-09-15
 ### Added
 - Fixed python syntax errors
