@@ -1,0 +1,24 @@
+name: Mathemagic Checker
+
+on:
+  push:
+    branches:
+      - "feature/**"
+      - main
+  pull_request: []
+
+jobs:
+  run-code:
+    name: Run Code
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run Code
+        run: |
+          python3 Mathemagic/mathemagic.py << EOF
+          Stoneboy
+          8739
+          5432
+          2344
+          EOF
