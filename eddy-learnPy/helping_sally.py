@@ -24,7 +24,7 @@ if fruit_list[0] == "Apple":
 # multiply by 5
 discount_price = 0
 discount_amount = (1.35 + 1.30 / 100) * 5
-discount_percent = discount_price
+discount_percent = discount_amount
 print("Thanks for being a valued customer! Your discount is: ", discount_percent, "%")
 
 #The code below will be used to show customers a list of random fruits on sale.
