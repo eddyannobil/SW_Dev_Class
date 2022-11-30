@@ -42,7 +42,7 @@ def master_yoda(string):
 def paper_doll(string):
     word = ""
     for letter in string:
-        word = word + letter + letter + letter
+        word = word + letter * 3
     print(word)        
 # paper_doll('Hello') --> 'HHHeeellllllooo'
 # paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
@@ -72,7 +72,7 @@ def blackjack(num1, num2, num3):
                 else:
                     return sum
 
-        if 11 not in list:
+        else:
             if sum > 21:
                 return "BUST"
         #          return "BUST" 
@@ -94,9 +94,9 @@ def main():
 
     # master_yoda("I am home")
     # master_yoda("We are ready")
-    #paper_doll('Mississippi')
-    result = blackjack(9,9,11)
-    print(result)
+    paper_doll('Mississippi')
+    # result = blackjack(9,9,11)
+    # print(result)
 
 if __name__ == "__main__":
     main()
